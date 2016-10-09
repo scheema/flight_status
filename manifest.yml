@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Flight Status Node App
+  host: Flight-Status-Node-App
+  disk_quota: 1024M
+  services:
+  - API_Connect_Service_Flight_Status
+  - Flight Status Node App-cloudantNoSQLDB

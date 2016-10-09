@@ -1,0 +1,22 @@
+{
+  "name": "cloudant_boilerplate_nodejs",
+  "version": "0.0.2",
+  "private": true,
+  "scripts": {
+      "test": "mocha test",
+      "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "4.13.x",
+    "cfenv": "1.0.x",
+    "log4js": "0.6.26",
+    "proxyquire": "*",
+    "body-parser": "*",
+    "request": "*",
+    "bluebird": "2.10.0"
+  },
+  "devDependencies": {
+  "mocha": "*"
+  },
+  "repository": {}
+}

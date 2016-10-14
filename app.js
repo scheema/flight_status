@@ -9,7 +9,7 @@
 var express = require('express');
 var log4js = require('log4js');
 var bodyParser = require('body-parser');
-var petSearch = require('./services/petSearch');
+var flightStatus = require('./services/flightStatus');
 var https = require('https');
 var fs = require('fs');
 var request = require('request');
@@ -59,15 +59,9 @@ var allowCrossDomain = function(req, res, next) {
 };
 app.use(allowCrossDomain);
 
-// database.initDBConnection();
-
-//Uncomment the following as part of Lab exercise
-//app.get('/findByTag', petSearch.findByTag);
-app.get('/findById', petSearch.findById);
-
 //Edits: Srinivas Cheemalapati Oct 05, 2016
 
-app.get('/airport/status/:iata', petSearch.findStatus)
+app.get('/airport/status/:iata', flightStatus.findStatus)
 {
     console.log("got a get request for airport status");
 };

@@ -1,6 +1,8 @@
 <<<<<<< HEAD
 # Node.js Cloudant Starter Overview
 
+<a href="https://bluemix.net/deploy?repository=https://github.com/scheema/flight_status" # [required]><img src="https://bluemix.net/deploy/button.png" alt="Deploy to Bluemix"></a>
+
 The Node.js Starter demonstrates how to use Bluemix service. The app displays a default page
 =======
 This README.md file is displayed on your project page. You should edit this 

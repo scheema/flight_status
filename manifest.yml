@@ -7,5 +7,4 @@ applications:
   host: Flight-Status-Node-App
   disk_quota: 1024M
   services:
-  - API_Connect_Service_Flight_Status
-  - Flight Status Node App-cloudantNoSQLDB
+   - Flight Status Node App-cloudantNoSQLDB
